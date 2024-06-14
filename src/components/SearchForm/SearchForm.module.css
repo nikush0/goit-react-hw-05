@@ -1,0 +1,39 @@
+.form {
+    padding: 10px;
+  }
+  
+  .btn {
+    background-image: linear-gradient(
+      to bottom,
+      #898c8d,
+      #979b9b,
+      #a5a9a8,
+      #b5b8b5,
+      #c6c7c3
+    );
+    border: 1px solid rgb(107, 106, 106);
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .btn:hover {
+    background-image: linear-gradient(
+      to right top,
+      #2f8f47,
+      #459040,
+      #57913a,
+      #679234,
+      #769230
+    );
+  }
+  
+  .inp {
+    border: 1px solid rgb(107, 106, 106);
+    border-radius: 5px;
+    width: 400px;
+    padding: 10px;
+  }
+  
+  .inp:focus {
+    border-color: #2f8f47;
+  }

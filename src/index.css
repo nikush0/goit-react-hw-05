@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background-color: #fdfdfd;
+  color: #0c0c0c;
+  width: 100%;
+}
+
+/* Reset styles */
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
